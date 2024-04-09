@@ -12,13 +12,15 @@ The project focused on developing an automated system for generating files conta
 ## Architecture Design:
 The architecture of our solution in the AWS environment is designed to maximize scalability, reliability, and cost-effectiveness. Key components include:
 
-Data Ingestion: Various data sources, including databases and manual files, are ingested into the system using AWS Database Migration Service (DMS) and AWS Storage Gateway, ensuring seamless data integration.
+Data Ingestion: Various data sources, including databases and manual files, are ingested into the system using AWS Database Migration Service (DMS) and AWS Appflow, ensuring seamless data integration.
 
-Data Processing: AWS Lambda functions are employed for data processing and transformation, enabling real-time processing of incoming data streams. This serverless approach enhances agility and reduces operational overhead.
+Data Processing: AWS Lambda functions are employed for triggering Glue jobs on put_event which is responsible for data processing and transformation, enabling real-time processing of incoming data streams. This serverless approach enhances agility and reduces operational overhead.
 
 File Generation: Processed data is consolidated and formatted into files containing gateway routing information using Amazon Simple Storage Service (S3) and AWS Glue. This ensures consistency and standardization of output files, facilitating downstream processing.
 
 Monitoring and Management: AWS CloudWatch provides comprehensive monitoring and logging capabilities, allowing for proactive management of system performance and resource utilization. Additionally, AWS Identity and Access Management (IAM) ensures secure access control and compliance with data governance policies.
+
+Dashboarding : In addition to automating the generation of files containing gateway routing information, there is AWS QuickSight implemented for data visualization through interactive dashboards which takes data from Glue catalogue tables .
 
 ## Results and Benefits:
 By implementing this automated solution, our organization achieved significant improvements in operational efficiency and resource utilization. Key outcomes include:
