@@ -27,7 +27,7 @@ By implementing this automated solution, our organization achieved significant i
 Enhanced scalability and agility: The scalable architecture of our solution, coupled with serverless computing capabilities, enables seamless adaptation to evolving business requirements and peak transaction volumes.
 Improved data accuracy and consistency: Standardized file formats and automated data processing minimize the risk of errors and discrepancies, enhancing overall data integrity within our payment ecosystem.
 
-##Conclusion:
+## Conclusion:
 The successful implementation of an automated system for generating files containing gateway routing information demonstrates our commitment to innovation and efficiency within the payments industry. Leveraging the capabilities of AWS, we have effectively bridged the gap between manual processes and automated systems, unlocking new levels of operational excellence and scalability. Moving forward, we remain dedicated to leveraging cutting-edge technologies to drive continuous improvement and deliver superior value to our stakeholders in the ever-evolving landscape of fintech.
 
 
