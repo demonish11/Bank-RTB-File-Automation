@@ -29,3 +29,6 @@ Improved data accuracy and consistency: Standardized file formats and automated 
 
 ##Conclusion:
 The successful implementation of an automated system for generating files containing gateway routing information demonstrates our commitment to innovation and efficiency within the payments industry. Leveraging the capabilities of AWS, we have effectively bridged the gap between manual processes and automated systems, unlocking new levels of operational excellence and scalability. Moving forward, we remain dedicated to leveraging cutting-edge technologies to drive continuous improvement and deliver superior value to our stakeholders in the ever-evolving landscape of fintech.
+
+
+![Rtb_architecture](https://github.com/demonish11/Bank-RTB-File-Automation/assets/141517834/a9200398-2593-484f-8a22-0b3662032e0d)
